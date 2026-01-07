@@ -15,7 +15,7 @@ export default async function Footer() {
     <footer className="pt-16 lg:pt-20 bg-[#E6F8F3] ">
       <div className="container flex flex-col items-center justify-center">
         <Image
-          src="/logo 2.png"
+          src="/Logo.png"
           alt="VIAJIA Logo"
           width={400}
           height={200}

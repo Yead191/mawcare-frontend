@@ -1,9 +1,12 @@
-const navItems = [
-  { labelKey: "home", href: "/" },
-  { labelKey: "about", href: "/about" },
-  { labelKey: "contactUs", href: "/contact-us" },
-  { labelKey: "terms", href: "/terms-condition" },
-  { labelKey: "privacy", href: "/privacy-policy" },
+const startItems = [
+  { labelKey: "Home", href: "/" },
+  { labelKey: "Services", href: "/services" },
+  { labelKey: "Adoption", href: "/adoption" },
 ];
 
-export default navItems;
+const endItems = [
+  { labelKey: "About", href: "/about" },
+  { labelKey: "Plans", href: "/plans" },
+];
+
+export { startItems, endItems };
