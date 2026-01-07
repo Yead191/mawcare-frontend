@@ -17,8 +17,8 @@ export default async function Footer() {
         <Image
           src="/Logo.png"
           alt="VIAJIA Logo"
-          width={400}
-          height={200}
+          width={1200}
+          height={500}
           draggable={false}
           className="h-fit lg:h-52 w-fit mb-10"
         />

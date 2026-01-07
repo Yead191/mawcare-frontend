@@ -59,16 +59,16 @@ export default function Banner() {
           {/* Middle Column */}
           <div className="lg:col-span-6 relative flex justify-center items-center h-[600px]">
             {/* Glassmorphism Card */}
-            <div className="absolute w-[80%] h-[70%] bg-white/20 backdrop-blur-md rounded-[60px] border border-white/30 shadow-2xl z-0 transform -rotate-2"></div>
+            <div className="absolute w-[80%] h-[500px] 2xl:h-[630px] bg-white/20 backdrop-blur-md rounded-[60px] border border-white/30 shadow-2xl z-0 transform -rotate-2 lg:top-20 2xl:top-0"></div>
 
             {/* Cat Image */}
             <div className="relative z-10 w-full h-full flex items-center justify-center">
               <Image
-                src="/assets/images/home/banner-img.png"
+                src="/assets/images/home/banner-img2.png"
                 alt="White Cat"
                 width={1000}
                 height={1000}
-                className="object-contain h-full w-fit transform scale-125"
+                className="object-contain h-[580px] 2xl:h-full w-fit transform 2xl:scale-115"
                 priority
                 draggable={false}
               />
